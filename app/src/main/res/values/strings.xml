@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BTT</string>
+    <string name="associazione">Bologna Trail Team A.s.d.</string>
+    <string name="fragment_home">Home</string>
+    <string name="fragment_pagamenti">Pagamenti</string>
+    <string name="fragment_sito_web">Sito Web</string>
+    <string name="fragment_menu">Menu</string>
+    <string name="nome_pagamento">Nome</string>
+    <string name="cognome_pagamento">Cognome</string>
+    <string name="causale_pagamento">Causale</string>
+    <string name="importo_pagamento">Importo</string>
+    <string name="pulsante_pagamento">Vai al Pagamento</string>
+</resources>

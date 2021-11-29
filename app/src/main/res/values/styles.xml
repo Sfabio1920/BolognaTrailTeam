@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Status.Bar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    </style>
+    <style name="Splash.Screen" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">
+            @drawable/splash_layout
+        </item>
+    </style>
+</resources>

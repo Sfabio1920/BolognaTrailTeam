@@ -1,0 +1,17 @@
+<!-- ?xml version="1.0" encoding="UTF-8"? -->
+<resources>
+    <color name="primaryColor">#00c853</color>
+    <color name="primaryLightColor">#5efc82</color>
+    <color name="primaryDarkColor">#009624</color>
+    <color name="secondaryColor">#29b6f6</color>
+    <color name="secondaryLightColor">#73e8ff</color>
+    <color name="secondaryDarkColor">#0086c3</color>
+    <color name="primaryTextColor">#FFFFFF</color>
+    <color name="secondaryTextColor">#000000</color>
+    <color name="webSiteColor">#181818</color>
+    <color name="materialBackground">#121212</color>
+    <color name="whiteOpaque5">#0DFFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="splashColor">#282828</color>
+    <!--Per cambiare le icone assieme al tema scrivi il colore qui, scrivi l'attributo nel tema, sia chiaro che scuro e dopo usa il queri ad attr ?attr/-->
+</resources>

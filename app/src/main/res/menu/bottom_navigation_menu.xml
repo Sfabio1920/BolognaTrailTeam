@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/icon_1"
+        android:title="@string/fragment_home"/>
+    <item
+        android:id="@+id/pagamenti"
+        android:enabled="true"
+        android:icon="@drawable/icon_2"
+        android:title="@string/fragment_pagamenti"/>
+    <item
+        android:id="@+id/sito_web"
+        android:enabled="true"
+        android:icon="@drawable/icon_3"
+        android:title="@string/fragment_sito_web"/>
+    <item
+        android:id="@+id/menu"
+        android:enabled="true"
+        android:icon="@drawable/icon_4"
+        android:title="@string/fragment_menu"/>
+</menu>

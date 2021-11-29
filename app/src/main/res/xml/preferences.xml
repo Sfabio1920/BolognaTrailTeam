@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.PreferenceCategory
+            app:iconSpaceReserved="false"
+            app:key="gui_category"
+            app:title="Aspetto">
+        <androidx.preference.DropDownPreference
+                app:defaultValue="2"
+                app:entries="@array/theme_entries"
+                app:entryValues="@array/theme_values"
+                app:icon="@drawable/ic_light_dark"
+                app:key="theme"
+                app:title="Tema"
+                app:useSimpleSummaryProvider="true"/>
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory
+            app:iconSpaceReserved="false"
+            app:key="notification_category"
+            app:title="Notifiche">
+        <androidx.preference.SwitchPreferenceCompat
+                app:defaultValue="true"
+                app:icon="@drawable/ic_notifications"
+                app:key="notification"
+                app:summary="Consenti Notifiche per gli Eventi nel Calendario"
+                app:title="Eventi"/>
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory
+            app:iconSpaceReserved="false"
+            app:key="cache_category"
+            app:title="Cache">
+        <androidx.preference.DropDownPreference
+                app:defaultValue="1"
+                app:entries="@array/cache_entries"
+                app:entryValues="@array/cache_values"
+                app:icon="@drawable/ic_delete"
+                app:key="cache"
+                app:title="Svuota cache all'uscita"
+                app:useSimpleSummaryProvider="true"/>
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>
